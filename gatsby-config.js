@@ -18,10 +18,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-cosmicjs',
       options: {
-        bucketSlug: process.env.COSMIC_BUCKET,
+        bucketSlug: 'test-gatsby-cosmicjs',
         objectTypes: ['posts','settings'],
         apiAccess: {
-          read_key: process.env.COSMIC_READ_KEY,
+          read_key: 'zxnuEYTF4r8bb8ha4J6IPIiUhdACNXoc0SvyjXv02rSlXrB027',
         },
         localMedia: true
       }
